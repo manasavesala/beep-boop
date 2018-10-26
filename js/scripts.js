@@ -1,22 +1,24 @@
+
+
 var beepBoop = function(number) {
-    // var zero = srt.matches(/[^1-9]/);
     var name = $("#userName").val();
     var array = [];
+
     for (var i = 0; i <= number; i++){
         array.push(i);
     }
     
     for(var i = 0; i <= array.length; i++){
-        debugger;
-        if(array.includes(0)){
-            array[i] = "'Beep!'" + " ";
+
+        if(array[i]%3 === 0){
+            array[i] ='"' + "I'm sorry, " +name+". I'm afraid I can't do that." + '"' + " ";
         }
-        if(array.includes(1)){
+        if(array[i]=== 1){
             array[i] = "'Boop!'" + " ";
 
         }
-        if(array[i]%3 === 0){
-            array[i] ='"' + "I'm sorry, " +name+". I'm afraid I can't do that." + '"' + " ";
+        if(array[i]%10 === 0){
+            array[i] = "'Beep!'" + " ";
         }
 
 
@@ -32,6 +34,8 @@ $(document).ready(function(){
     var userNumber = parseInt($("#userNumber").val());
     var name = $("#userName").val();
     $("#output").text(beepBoop(userNumber));
+    $("#reverse").text(beepBoop(userNumber).reverse());
+    $(".op").show();
 
   });
 });
