@@ -1,6 +1,6 @@
 
 //business logic
-var beepBoop = function(number) {
+var beepBoop = function(number){
     var name = $("#userName").val();
     var array = [];
     for (var i = 0; i <= number; i++){
@@ -22,7 +22,6 @@ var beepBoop = function(number) {
     });
     return result;
 }
-
 
 //user interface logic
 $(document).ready(function(){
