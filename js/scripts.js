@@ -8,9 +8,6 @@ var beepBoop = function(number) {
         array.push(i);
     }
 
-
-
-    
     var result = array.map(function(num){
         value = num.toString();
         if(num%3 === 0){
