@@ -12,8 +12,12 @@ h1{
   padding: 10px;
   color: #ba2b0b;
 }
+h1:hover{
+  font-size: 65px;
+  color: #10a028 ;
+}
 body{
-  background-color: #1dd3cd;
+  background-image: url(../img/bg.jpg); ;
 } 
 form{
   padding-left: 40px; 
@@ -25,17 +29,13 @@ form{
 }
 p{
   font-size: 35px;
-  color: #7b76e2;
+  color: #3b33c6;
 }
 button{
   font-size: 25px;
 }
-h1:hover{
-  font-size: 65px;
-  color: #10a028 ;
-}
 #reverse, #output{
-  color: #c8ce1e;
+  color: #05a83b;
 }
 .btn: hover{
   font-size: 30px;
