@@ -1,13 +1,11 @@
 
-
+//business logic
 var beepBoop = function(number) {
     var name = $("#userName").val();
     var array = [];
-
     for (var i = 0; i <= number; i++){
         array.push(i);
     }
-
     var result = array.map(function(num){
         value = num.toString();
         if(num%3 === 0){
@@ -21,18 +19,16 @@ var beepBoop = function(number) {
         }else{
             return num;
         }
-
-    
     });
     return result;
 }
 
 
-
+//user interface logic
 $(document).ready(function(){
   $("button").click(function(event){
     event.preventDefault();
-    var userNumber = parseInt($("#userNumber").val());
+    var userNumber = $("#userNumber").val();
     var name = $("#userName").val();
     $("#output").text(beepBoop(userNumber));
     $("#reverse").text(beepBoop(userNumber).reverse());
