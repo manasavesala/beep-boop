@@ -10,21 +10,21 @@ _A web application that takes a number from a user and returns a range of number
 
 ## Specifications
 
-* _Program replaces 0 with "Beep!"._
-    _Example Input: 0_
-    _Example Outout: "Beep!"_
+1. _Program replaces 0 with "Beep!"._
+   * _Example Input: 0_
+   * _Example Outout: "Beep!"_
 
-* _Program replaces 1 with "Boop!"._
-    _Example Input: 1_
-    _Example Outout: "Beep!"_
+2. _Program replaces 1 with "Boop!"._
+   * _Example Input: 1_
+   * _Example Outout: "Beep!"_
 
-* _Program replaces 3 with "Beep!"._
-    _Example Input: 3_
-    _Example Outout: "I'm sorry, Dave. I'm afraid I can't do that."_ 
+3. _Program replaces 3 with "Beep!"._
+   * _Example Input: 3_
+   * _Example Outout: "I'm sorry, Dave. I'm afraid I can't do that."_ 
 
-* _The first exception should apply unless the second exception does_
+4. _The first exception should apply unless the second exception does_
 
-* _The second exception should apply unless the third exception does_           
+5. _The second exception should apply unless the third exception does_           
 
 ## Support and contact details
 
