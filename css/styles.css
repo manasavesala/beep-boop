@@ -7,7 +7,12 @@
   padding :10px;
   color: green;
   font-weight: bold;
+  padding-bottom: 50px;
 }
 h1{
   text-align: center;
+}
+
+body{
+  background-color: #f2e4dc;
 }

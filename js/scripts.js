@@ -7,24 +7,28 @@ var beepBoop = function(number) {
     for (var i = 0; i <= number; i++){
         array.push(i);
     }
+
+
+
     
-    for(var i = 0; i <= array.length; i++){
+    var result = array.map(function(num){
+        value = num.toString();
+        if(num%3 === 0){
+           return num ='"' + "I'm sorry, " +name+". I'm afraid I can't do that." + '"' + " ";
+        }else if(value.includes(1)){
 
-        if(array[i]%3 === 0){
-            array[i] ='"' + "I'm sorry, " +name+". I'm afraid I can't do that." + '"' + " ";
+           return num = '"Boop!"'+ " ";
+        }else if(value.includes(0)){
+
+           return num = '"Beep!"' +" " ;
+        }else{
+            return num;
         }
-        if(array[i]=== 1){
-            array[i] = "'Boop!'" + " ";
 
-        }
-        if(array[i]%10 === 0){
-            array[i] = "'Beep!'" + " ";
-        }
-
-
-    }
-    return array;
-};
+    
+    });
+    return result;
+}
 
 
 
