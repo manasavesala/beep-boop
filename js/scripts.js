@@ -8,7 +8,7 @@ var beepBoop = function(number){
     }
     var result = array.map(function(num){
         value = num.toString();
-        if(num%3 === 0){
+        if(num%3 === 0 && num !== 0){
            return num ='"' + "I'm sorry, " +name+". I'm afraid I can't do that." + '"' + " ";
         }else if(value.includes(1)){
 
